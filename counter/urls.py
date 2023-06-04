@@ -18,5 +18,5 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-	path('main/',include('ajaxcounter.urls')),
+	path('counter/',include('ajaxcounter.urls')),
 ]
